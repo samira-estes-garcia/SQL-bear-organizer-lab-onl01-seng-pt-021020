@@ -15,7 +15,7 @@ def selects_oldest_bear_and_returns_name_and_age
 end
 
 def select_youngest_bear_and_returns_name_and_age
-  "SELECT bears.name, bears.age FROM bears WHERE age <  LIMIT 1;"
+  "SELECT bears.name, bears.age FROM bears WHERE age < 5 LIMIT 1;"
 end
 
 def selects_most_prominent_color_and_returns_with_count
